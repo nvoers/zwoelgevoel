@@ -101,3 +101,29 @@ h2 {
   background-position: center;
   background-repeat: repeat;
 }
+
+svg text {
+  stroke: #402e8d;
+  font-size: 150px;
+  font-weight: 700;
+  stroke-width: 3;
+ 
+  animation: textAnimate 5s infinite alternate;
+  
+}
+
+@keyframes textAnimate {
+  0% {
+    stroke-dasharray: 0 50%;
+    stroke-dashoffset: 20%;
+    fill:#ed1b57;
+
+  }
+  
+  100% {
+    stroke-dasharray: 50% 0;
+    stroke-dashoffset: -20%;
+    fill: #ed1b57;
+  }
+  
+}
