@@ -97,7 +97,7 @@ h2 {
 
 .backgroundImage {
   background-image: url('../public/assets_lines.png');
-  background-size: cover;
+  background-size: auto 100%;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 }
