@@ -88,11 +88,11 @@ body {
   display: flex;
 }
 
-h2 {
+.citylight {
   margin: auto;
   font-size: 3.5rem;
   font-weight: 300;
-  animation: lights 5s 750ms linear infinite;
+  animation: lights 3s linear infinite;
 }
 
 .backgroundImage {
@@ -102,28 +102,43 @@ h2 {
   background-repeat: repeat;
 }
 
-svg text {
-  stroke: #402e8d;
-  font-size: 150px;
-  font-weight: 700;
-  stroke-width: 3;
- 
-  animation: textAnimate 5s infinite alternate;
-  
+.slide {
+  /* position: absolute; */
+  /* top: 50%;
+  left: 50%; */
+  /* transform: translate(-50%,-50%); */
+  padding: 12px 48px;
+  color: #ffffff;
+  background: linear-gradient(to right, #ed1b57 0, #f6a3bb 15%, #ed1b57 25%);
+  background-position: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+  animation-fill-mode: forwards;
+}
+    
+@keyframes shine{
+  0%{
+    background-position: 0%;
+  }
+  100%{
+    background-position: 660px;}
 }
 
-@keyframes textAnimate {
-  0% {
-    stroke-dasharray: 0 50%;
-    stroke-dashoffset: 20%;
-    fill:#ed1b57;
+.glow {
+  -webkit-animation: glow 3s ease-in-out infinite alternate;
+  -moz-animation: glow 3s ease-in-out infinite alternate;
+  animation: glow 3s ease-in-out infinite alternate;
+}
 
+@-webkit-keyframes glow {
+     from {
+      color: #ed1b57;
+    text-shadow: 0 0 10px #f6a3bb, 0 0 20px #f6a3bb, 0 0 30px #f6a3bb, 0 0 40px #f6a3bb, 0 0 50px #f6a3bb, 0 0 60px #f6a3bb, 0 0 70px #f6a3bb, 0 0 90px #f6a3bb;
   }
   
-  100% {
-    stroke-dasharray: 50% 0;
-    stroke-dashoffset: -20%;
-    fill: #ed1b57;
+  to {
+     color: #ed1b57;
+    text-shadow: 0 0 20px #f6a3bb, 0 0 30px #f6a3bb, 0 0 40px #f6a3bb, 0 0 50px #f6a3bb, 0 0 60px #f6a3bb, 0 0 70px #f6a3bb, 0 0 80px #f6a3bb, 0 1 90px #f6a3bb;
   }
-  
 }
