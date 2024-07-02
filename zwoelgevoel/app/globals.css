@@ -134,11 +134,11 @@ body {
 @-webkit-keyframes glow {
      from {
       color: #ed1b57;
-    text-shadow: 0 0 10px #f6a3bb, 0 0 20px #f6a3bb, 0 0 30px #f6a3bb, 0 0 40px #f6a3bb, 0 0 50px #f6a3bb, 0 0 60px #f6a3bb, 0 0 70px #f6a3bb, 0 0 90px #f6a3bb;
+    text-shadow: 0 0 10px #ebc3ce, 0 0 20px #ebc3ce, 0 0 30px #ebc3ce, 0 0 40px #ebc3ce, 0 0 50px #ebc3ce, 0 0 60px #ebc3ce, 0 0 70px #ebc3ce, 0 0 90px #ebc3ce;
   }
   
   to {
      color: #ed1b57;
-    text-shadow: 0 0 20px #f6a3bb, 0 0 30px #f6a3bb, 0 0 40px #f6a3bb, 0 0 50px #f6a3bb, 0 0 60px #f6a3bb, 0 0 70px #f6a3bb, 0 0 80px #f6a3bb, 0 1 90px #f6a3bb;
+    text-shadow: 0 0 20px #ebc3ce, 0 0 30px #ebc3ce, 0 0 40px #ebc3ce, 0 0 50px #ebc3ce, 0 0 60px #ebc3ce, 0 0 70px #ebc3ce, 0 0 80px #ebc3ce, 0 1 90px #ebc3ce;
   }
 }
