@@ -31,3 +31,73 @@ body {
     text-wrap: balance;
   }
 }
+
+@keyframes lights {
+  0% {
+    color: #ed1b57;
+    text-shadow:
+      0 0 1em hsla(251, 51%, 37%, 0.2),
+      0 0 0.125em hsla(251, 51%, 37%, 0.2),
+      -1em -0.125em 0.5em hsla(15, 88%, 54%, 0),
+      1em 0.125em 0.5em hsla(44, 99%, 53%, 0);
+  }
+  
+  30% { 
+    color: #ed1b57;
+    text-shadow:
+      0 0 1em hsla(251, 51%, 37%, 0.5),
+      0 0 0.125em hsla(251, 51%, 37%, 0.5),
+      -0.5em -0.125em 0.25em hsla(15, 88%, 70%, 0.2),
+      0.5em 0.125em 0.25em hsla(44, 99%, 70%, 0.4);
+  }
+  
+  40% { 
+    color: #ed1b57;
+    text-shadow:
+      0 0 1em hsla(251, 51%, 37%, 0.5),
+      0 0 0.125em hsla(251, 51%, 37%, 0.5),
+      -0.25em -0.125em 0.125em hsla(15, 88%, 70%, 0.2),
+      0.25em 0.125em 0.125em hsla(44, 99%, 70%, 0.4);
+  }
+  
+  70% {
+    color: #ed1b57;
+    text-shadow:
+      0 0 1em hsla(251, 51%, 37%, 0.5),
+      0 0 0.125em hsla(251, 51%, 37%, 0.5),
+      0.5em -0.125em 0.25em hsla(15, 88%, 70%, 0.2),
+      -0.5em 0.125em 0.25em hsla(44, 99%, 70%, 0.4);
+  }
+  
+  100% {
+    color: #ed1b57;
+    text-shadow:
+      0 0 1em hsla(251, 51%, 37%, 0.2),
+      0 0 0.125em hsla(251, 51%, 37%, 0.2),
+      1em -0.125em 0.5em hsla(15, 88%, 54%, 0),
+      -1em 0.125em 0.5em hsla(44, 99%, 53%, 0);
+  }
+  
+}
+
+body {
+  margin: 0;
+  font: 100% / 1.5 Raleway, sans-serif;
+  color: #ed1b57;
+  height: 100vh;
+  display: flex;
+}
+
+h2 {
+  margin: auto;
+  font-size: 3.5rem;
+  font-weight: 300;
+  animation: lights 5s 750ms linear infinite;
+}
+
+.backgroundImage {
+  background-image: url('../public/assets_lines.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
