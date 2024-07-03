@@ -4,6 +4,7 @@ import "./globals.css";
 
 
 const Area = localFont({ src: '../public/AreaNormal-ExtraBold.otf', variable: '--font-area'});
+const AreaLight = localFont({ src: '../public/AreaNormal-Thin.otf', variable: '--font-area-light'});
 
 export const metadata: Metadata = {
   title: "ZWOELGEVOEL",
