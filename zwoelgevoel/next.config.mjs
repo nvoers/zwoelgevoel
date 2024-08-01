@@ -3,15 +3,13 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: "/tickets",
-        destination:
-          "https://shop.ikbenaanwezig.nl/tickets/event/zwoel-gevoel-2024",
+        source: "/",
+        destination: "/linktree",
         permanent: false,
-        basePath: false,
       },
       {
         source: "/qrcode",
-        destination: "/",
+        destination: "/linktree",
         permanent: false,
       },
     ];

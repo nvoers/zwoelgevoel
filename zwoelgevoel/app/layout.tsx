@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="apple-touch-icon" sizes="512x512" href="/favicon.png"></link>
+        <link rel="apple-touch-icon" sizes="512x512" href="/profilepic.png"></link>
       </head>
       <body className={`${Area.variable} font-sans`}>{children}</body>
     </html>
