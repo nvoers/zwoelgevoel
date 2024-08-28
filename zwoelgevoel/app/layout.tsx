@@ -21,7 +21,7 @@ export default function RootLayout({
       <head>
         <link rel="apple-touch-icon" sizes="512x512" href="/profilepic.png"></link>
       </head>
-      <body className={`${Area.variable} font-sans`}>{children}</body>
+      <body className={``}>{children}</body>
     </html>
   );
 }
