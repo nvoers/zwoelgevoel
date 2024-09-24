@@ -12,16 +12,16 @@ export default function Home() {
             <Image src="/profilepic.png" alt="Zwoel Gevoel" width={150} height={150} className="rounded-full mb-8"/>
             <div className="scale-y-125">
                 <p className={`${Area.variable} font-sans uppercase text-center`}>
-                    zwoel gevoel<br/>14 september - 16:00-23:00
+                    zwoel gevoel
                 </p>
-                <p className={`text-center ${AreaLight.variable}`}>
+{/*                 <p className={`text-center ${AreaLight.variable}`}>
                     Op 14 september strijkt Zwoel Gevoel neer in het mooie Nijmegen. Een mooie nazomeravond gevuld met klanken van disco, house en techno. Klik op onderstaande buttons voor meer informatie en tickets, of join onze whatsapp community om op de hoogte te blijven van alle informatie rondom aankomende en volgende edities. De locatie van Zwoel Gevoel wordt later bekend gemaakt aan tickethouders (10 min fietsen vanaf Nijmegen Centraal).
-                </p>
+                </p> */}
             </div>
             <div className="mt-12 flex flex-col w-full text-center uppercase">
-                <Link href="https://shop.ikbenaanwezig.nl/tickets/event/zwoel-gevoel-2024" className="rounded-2xl bg-gray-400 hover:bg-purple-900 text-white px-8 py-4 mb-4">
+{/*                 <Link href="https://shop.ikbenaanwezig.nl/tickets/event/zwoel-gevoel-2024" className="rounded-2xl bg-gray-400 hover:bg-purple-900 text-white px-8 py-4 mb-4">
                     tickets
-                </Link>
+                </Link> */}
                 <Link href="https://chat.whatsapp.com/HEoeG7MALt09N3xLTHMwuj" className="rounded-2xl bg-gray-400 hover:bg-purple-900 text-white px-8 py-4 mb-4">
                     whatsapp community
                 </Link>
