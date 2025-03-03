@@ -11,9 +11,9 @@ export default function Home() {
         <div className="max-w-screen-sm mx-auto flex flex-col items-center mt-12 px-2">
             <Image src="/profilepic.png" alt="Zwoel Gevoel" width={150} height={150} className="rounded-full mb-8"/>
             <div className="scale-y-125">
-                <p className={`${Area.variable} font-sans uppercase text-center`}>
+{/*                 <p className={`${Area.variable} font-sans uppercase text-center`}>
                     zwoel gevoel
-                </p>
+                </p> */}
 {/*                 <p className={`text-center ${AreaLight.variable}`}>
                     Op 14 september strijkt Zwoel Gevoel neer in het mooie Nijmegen. Een mooie nazomeravond gevuld met klanken van disco, house en techno. Klik op onderstaande buttons voor meer informatie en tickets, of join onze whatsapp community om op de hoogte te blijven van alle informatie rondom aankomende en volgende edities. De locatie van Zwoel Gevoel wordt later bekend gemaakt aan tickethouders (10 min fietsen vanaf Nijmegen Centraal).
                 </p> */}
@@ -29,6 +29,7 @@ export default function Home() {
                     instagram
                 </Link>
                 <iframe src="https://open.spotify.com/embed/playlist/0acyM9uTfOmmsWSMEYTaoE?utm_source=generator" width="100%" height="352" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <iframe width="100%" height="120" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Fgiorgio_music%2Fzwoel-gevoel-2024-09-14-giorgio-dj-set%2F" frameborder="0" ></iframe>
             </div>
         </div>
     </main>
