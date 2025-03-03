@@ -29,7 +29,7 @@ export default function Home() {
                     instagram
                 </Link>
                 <iframe src="https://open.spotify.com/embed/playlist/0acyM9uTfOmmsWSMEYTaoE?utm_source=generator" width="100%" height="352" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                <iframe width="100%" height="120" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Fgiorgio_music%2Fzwoel-gevoel-2024-09-14-giorgio-dj-set%2F" frameborder="0" ></iframe>
+                <iframe width="100%" height="120" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Fgiorgio_music%2Fzwoel-gevoel-2024-09-14-giorgio-dj-set%2F"></iframe>
             </div>
         </div>
     </main>
