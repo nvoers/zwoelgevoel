@@ -28,8 +28,9 @@ export default function Home() {
                 <Link href="https://instagram.com/zwoel_gevoel" className="rounded-2xl bg-gray-400 hover:bg-purple-900 text-white px-8 py-4 mb-4">
                     instagram
                 </Link>
+                <iframe width="100%" height="120" className="py-4 mb-4" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Fgiorgio_music%2Fzwoel-gevoel-2024-09-14-giorgio-dj-set%2F"></iframe>
                 <iframe src="https://open.spotify.com/embed/playlist/0acyM9uTfOmmsWSMEYTaoE?utm_source=generator" width="100%" height="352" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                <iframe width="100%" height="120" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Fgiorgio_music%2Fzwoel-gevoel-2024-09-14-giorgio-dj-set%2F"></iframe>
+                
             </div>
         </div>
     </main>
