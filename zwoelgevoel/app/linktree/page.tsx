@@ -29,7 +29,7 @@ export default function Home() {
                     instagram
                 </Link>
                 <iframe width="100%" height="120" className="py-4" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Fgiorgio_music%2Fzwoel-gevoel-2024-09-14-giorgio-dj-set%2F"></iframe>
-                <iframe src="https://open.spotify.com/embed/playlist/0acyM9uTfOmmsWSMEYTaoE?utm_source=generator" width="100%" height="352" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <iframe src="https://open.spotify.com/embed/playlist/176mgoJgY4dr0WX42NiMRq?utm_source=generator" width="100%" height="352" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                 
             </div>
         </div>
