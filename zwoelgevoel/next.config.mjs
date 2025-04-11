@@ -9,7 +9,7 @@ const nextConfig = {
       },
       {
         source: "/qrcode",
-        destination: "/linktree",
+        destination: "/tickets",
         permanent: false,
       },
     ];
