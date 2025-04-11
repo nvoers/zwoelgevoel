@@ -19,9 +19,9 @@ export default function Home() {
                 </p> */}
             </div>
             <div className="mt-12 flex flex-col w-full text-center uppercase">
-{/*                 <Link href="https://shop.ikbenaanwezig.nl/tickets/event/zwoel-gevoel-2024" className="rounded-2xl bg-gray-400 hover:bg-purple-900 text-white px-8 py-4 mb-4">
+                 <Link href="https://shop.weeztix.com/44411b16-95df-4ca0-b50d-dfe2b733080b/tickets?shop_code=8nqqqqyn" className="rounded-2xl bg-gray-400 hover:bg-purple-900 text-white px-8 py-4 mb-4">
                     tickets
-                </Link> */}
+                </Link>
                 <Link href="https://chat.whatsapp.com/HEoeG7MALt09N3xLTHMwuj" className="rounded-2xl bg-gray-400 hover:bg-purple-900 text-white px-8 py-4 mb-4">
                     whatsapp community
                 </Link>
