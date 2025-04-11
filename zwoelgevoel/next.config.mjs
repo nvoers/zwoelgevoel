@@ -12,6 +12,12 @@ const nextConfig = {
         destination: "/tickets",
         permanent: false,
       },
+      {
+        source: "/tickets",
+        destination: "https://zwoelgevoel.nl/tickets",
+        permanent: false,
+        basePath: false,
+      },
     ];
   },
 };
